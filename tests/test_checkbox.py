@@ -6,6 +6,6 @@ def test_check_box(page:Page):
     check_box = CheckBox(page)
     check_box.open()
     check_box.fill_checkbox()
-    check_box.assert_checkbox()
+    check_box.assert_checkbox('select me or not')
 
 
